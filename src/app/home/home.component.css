@@ -1,0 +1,28 @@
+h1{
+    font-family: 'Hanalei', cursive;
+    font-size: 70px;
+    text-align: center;
+    color: rgb(28, 145, 28);
+}
+h3{
+    font-size: 45px;
+    text-align: center;
+    font-family: 'Chewy', cursive;
+}
+h4{
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Chewy', cursive;
+}
+img{
+    margin-top: 30px;
+    margin-left: 400px;
+    width: 620px;
+    margin-bottom: 30px;
+}
+p{
+    text-align: center;
+}
+button{
+    margin-top: 10px;
+}
