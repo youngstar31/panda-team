@@ -4,10 +4,12 @@ import { HomeComponent } from './home/home.component';
 import { Panda1Component } from './panda1/panda1.component';
 import { Panda2Component } from './panda2/panda2.component';
 import { Panda3Component } from './panda3/panda3.component';
+import { ImageGalleryComponent } from './image-gallery/image-gallery.component';
 
 const routes: Routes = [
   {path: 'home',
 component: HomeComponent},
+{path: 'imagegallery', component: ImageGalleryComponent},
 {path: 'pand1', 
 component: Panda1Component},
 {
