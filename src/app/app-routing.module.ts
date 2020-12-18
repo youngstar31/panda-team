@@ -9,12 +9,16 @@ const routes: Routes = [
   {path: 'home',
 component: HomeComponent},
 {path: 'pand1', 
-component: Panda1Component},{
+component: Panda1Component},
+{
   path: 'panda2',
   component: Panda2Component
 },
 {path: 'panda3',
-component: Panda3Component}
+component: Panda3Component},
+{
+  path: "", redirectTo: "home", pathMatch: "full"
+}
   
 ];
 
